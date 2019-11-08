@@ -88,9 +88,9 @@ namespace up_console
 
         private async Task DisplayMeAndMyManagerAsync()
         {
-            string username = "onedrive_uyg@tofas.com.tr"; 
+            string username = "***USERNAME***"; 
             var secure = new SecureString();
-            foreach (char c in "One09344")
+            foreach (char c in "***PASSWORD***")
             {
                 secure.AppendChar(c);
             } 
@@ -103,8 +103,8 @@ namespace up_console
                 DisplaySignedInAccount(authenticationResult.Account);
 
                 string accessToken = authenticationResult.AccessToken;
-                //await CallWebApiAndDisplayResultAsync(WebApiUrlMe, accessToken, "Me");
-                //await CallWebApiAndDisplayResultAsync(WebApiUrlMyManager, accessToken, "My manager");
+                await CallWebApiAndDisplayResultAsync(WebApiUrlMe, accessToken, "Me");
+                await CallWebApiAndDisplayResultAsync(WebApiUrlMyManager, accessToken, "My manager");
                 await CallWebApiAndDisplayResultAsync(WebApiUrlMyFiles, accessToken, "My files");
             }else{
                 Console.WriteLine("authenticationResult NULL");

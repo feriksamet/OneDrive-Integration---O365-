@@ -4215,11 +4215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/feriksamet/Desktop/OneDriveIntegration-O365 /up-console.csproj",
-      "projectName": "up-console",
-      "projectPath": "/Users/feriksamet/Desktop/OneDriveIntegration-O365 /up-console.csproj",
+      "projectUniqueName": "/Volumes/Workspace/OneDriveIntegration-O365 /OneDriveIntegration-O365.csproj",
+      "projectName": "OneDriveIntegration-O365",
+      "projectPath": "/Volumes/Workspace/OneDriveIntegration-O365 /OneDriveIntegration-O365.csproj",
       "packagesPath": "/Users/feriksamet/.nuget/packages/",
-      "outputPath": "/Users/feriksamet/Desktop/OneDriveIntegration-O365 /obj/",
+      "outputPath": "/Volumes/Workspace/OneDriveIntegration-O365 /obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/feriksamet/.nuget/NuGet/NuGet.Config"
